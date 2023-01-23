@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+body {
+    background-color: rgb(34, 34, 34);
+    font-size: 100%;
+    color: white;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+.cabecalho-menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+a {
+    color: white ;
+    
+}
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#botao-item{
+    
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    border-radius: 12px ;
+    border: 2px solid rgb(132, 14, 201);
+    width: 209px;
+    height: 38px;
+    padding:0px 18px;
+
+    
+}
+#botao-item:hover {
+    background-color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+.cabecalho-logo {
+    margin-top: 17px ;
+    flex-direction: column;
+    line-height: 28px;
+    font-size: 24px;
+    
+}
+.cabecalho-titulo1 {
+    font-weight: 200;
+}
+.cabecalho-titulo2 {
+    font-weight: 200;
+}
+.cabecalho-titulo-item {
+    display: flex;
+    align-content: space-around;
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-conteudo-titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    line-height: 60px;
+}
+.main-conteudo-titulo1 {
+    color: rgb(132, 14, 201);
+}
+.main-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.main-conteudo-texto {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+}
+.main-formulario-email-nome {
+    display: flex;
+    flex-direction: column;
+}
+form{
+   display: flex;  
+   flex-direction: column;
+   width: 70%;
+   margin-top: 0px;
+}
+.main-formulario-nome {
+    padding-right: 17px;
+    border-radius: 12px ;
+    border: 2px solid;
+    height: 40px;
+    margin-top: px;
+    padding: 15px;
+}
+.main-formulario-email {
+    padding-right: 17px;
+    border-radius: 12px ;
+    border: 2px solid;
+    height: 40px;
+    margin-top: 10px;
+    padding: 15px;
+    
+}
+.main-formulario-botao {
+    padding-right: 17px;
+    border-radius: 12px ;
+    border: none;
+    height: 40px;
+    width: 50%  ;
+    background-color: white;
+    margin-top: 10px;
+    padding: 6px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+.main-formulario-botao:hover {
+    background-color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}

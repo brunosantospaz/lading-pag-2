@@ -1,0 +1,36 @@
+* head{
+
+}
+header {
+    flex-direction: column;
+} 
+.main {
+    flex-direction: column;
+}
+.main-conteudo-titulo{
+    font-size: 35px;
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+.main-formulario-botao {
+    align-self: center;
+    width: 100%;
+    padding-right: 17px;
+    border-radius: 12px ;
+    border: none;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 6px;
+    font-family: 'Righteous',cursive;
+    font-size: 20px;
+}
+.main-formulario-botao:hover {
+    background-color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+img {
+    display: none;
+}
